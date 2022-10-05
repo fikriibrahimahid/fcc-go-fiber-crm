@@ -4,6 +4,7 @@ import (
 	"github.com/fikriibrahimahid/fcc-go-fiber-crm/database"
 	"github.com/gofiber/fiber"
 	"github.com/jinzhu/gorm"
+	_ "github.com/jinzhu/gorm/dialects/sqlite"
 )
 
 type Lead struct {
